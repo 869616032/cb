@@ -3,9 +3,12 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends Controller {
     public function index(){
-        $info = M('user')->select();
+//        $info = M('user')->select();
 //        var_dump($info);
 //        die;
+        $info = M('aaaa')->select();
+        dump($info);
+        die;
 ////        dump($info);
 //        header('Loachin.href="V1"');
 
